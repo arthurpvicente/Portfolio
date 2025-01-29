@@ -276,9 +276,10 @@ span{
 }
 
 .about-content p{
-    font-size: 1.5rem;
+    font-size: 18px;
     font-weight: 500;
     line-height: 1.8;
+    text-align: justify;
 }
 
 
@@ -372,11 +373,12 @@ span{
     font-weight: 500;
 }
 
-.timeline-content p{
+.timeline-content ul{
     color: white;
     font-size: 16px;
     font-weight: 300;
     line-height: 22px;
+    text-align:left;
 }
 
 /* Scrollbar styling */
@@ -441,6 +443,7 @@ span{
     font-size: 3rem;
     font-weight: 800;
     line-height: 2;
+    color: black;
 }
 
 .project-info p{
@@ -449,6 +452,7 @@ span{
     max-height: 100px;
     line-height: 1.7;
     margin: auto;
+    color: black;
 }
 
 /* Contact section styling */

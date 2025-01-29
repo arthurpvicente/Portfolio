@@ -75,7 +75,8 @@ https://github.com/Kenkarate/phone-number-validation */
   .iti__country.iti__highlight {
     background-color: rgba(0, 0, 0, 0.05); }
   .iti__flag-box, .iti__country-name, .iti__dial-code {
-    vertical-align: middle; }
+    vertical-align: middle;
+    color: black;}
   .iti__flag-box, .iti__country-name {
     margin-right: 6px; }
   .iti--allow-dropdown input, .iti--allow-dropdown input[type=text], .iti--allow-dropdown input[type=tel], .iti--separate-dial-code input, .iti--separate-dial-code input[type=text], .iti--separate-dial-code input[type=tel] {
