@@ -9,7 +9,6 @@
     <link rel='shortcut icon' type='image/x-icon' href='./images/coderegular.png' /> <!--It shows small logo in the tab-->
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/intlTelInput.css">
-    <link rel="stylesheet" href="./css/demo.css">
     <!------------- Icons used in this website: https://boxicons.com --------------------------->
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
 </head>
@@ -25,7 +24,7 @@
 
         <!-- Navigation bar -->
         <nav class="navbar">
-            <a href="#home" class="active">Home</a>
+            <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#experience">Experiences</a>
             <a href="#projects">Projects</a>
@@ -37,9 +36,9 @@
     <section class="home" id="home">
         <div class="home-content">
             <h1>Hi, it's <span>Arthur</span></h1>
-            <h3 class="text-animation">I'm a <span>Software Engineer Intern</span></h3>
-            <p>Welcome to my Portfolio Website! Here, you'll find a showcase of my passion for technology and a collection of projects that highlight my skills and experiences. 
-            Dive in to explore how I bring innovative ideas to life and tackle complex challenges.</p>
+            <h3 class="text-animation">I'm a <span>Software Engineer Student</span></h3>
+            <p>Welcome to my Portfolio Website! Here, you’ll discover a collection of projects that reflect my passion for technology and showcase my skills and experiences. 
+            Explore how I bring innovative ideas to life, solve complex challenges, and continuously push the boundaries of what's possible.</p>
 
             <!-- Social media icons to access Github and LinkedIn profile -->
             <div class="social-icons">
@@ -65,12 +64,15 @@
         <h2 class="heading">About Me</h2>
         <div class="about-content">
             <h3>Who I am?</h3>
-            <p>I'm a junior at Northwestern College, pursuing a degree in Software Engineering with a focus on backend development. As a college student, 
-            I'm passionate about utilizing technology to solve real-world problems and create innovative solutions. Currently, I am a Software Engineer Intern, 
-            where I specializing in Java, Python, SQL, Docker, Git, and Spring. My hands-on experience with API development, database management, and automation, 
-            particularly in streamlining processes using tools like Playwright and Celery. One of my notable projects involves automating the registration flows on the SmartPed platform, 
-            enhancing efficiency and accuracy. Driven by curiosity and a relentless desire to learn and grow, I embrace new programming language, a complex algorithms, 
-            or an innovative technology. My goal is to become a proficient software engineer, equipped to tackle challenging problems and contribute to new solutions.</p>
+            <p>Hi, I'm Arthur Vicente, a passionate Software Engineering student at Northwestern College, graduating in May 2026. 
+            With a strong foundation in programming languages like Java, Python, and C/C++, and experience with frameworks such as Spring Boot, 
+            Django, and FastAPI, I thrive on building reliable and scalable software solutions. My professional journey includes 
+            a Software Engineer Internship at Gruppy Tecnologia, where I collaborated on developing and maintaining APIs using Python and Django REST, 
+            and my ongoing role as an IT Technician Assistant at Northwestern College, where I troubleshoot technical issues and provide excellent support to students and faculty.
+            Beyond academics, I've developed various projects, including a Spring Boot API for product management, a responsive personal portfolio website, 
+            and a RESTful API management system for user and financial data. These projects demonstrate my expertise in API design, database management, and agile methodologies.
+            I’m driven by a keen interest in backend development and cloud technologies like AWS, aiming to design software that not only works but excels. When I’m not coding, 
+            you can find me exploring new tech tools, working out, or watching soccer games.</p>
         </div>
     </section>
 
@@ -85,11 +87,15 @@
                 <div class="timeline-dot"></div>
                 <div class="timeline-date">2022-Present</div>
                 <div class="timeline-content">
-                    <h3>IT Technician</h3>
-                    <p>I identify and resolve a wide range of IT issues for students, faculty, and staff, ensuring minimal disruption to daily operations. 
-                    I have gained proficiency in computer repair and system error resolution, delivering quick and effective solutions. With outstanding listening and 
-                    customer service skills, I create a welcoming environment for individuals seeking IT assistance. By working closely with users, I fully understand 
-                    their issues and provide personalized support and tailored solutions to meet their specific needs.</p>
+                    <h3><span> IT Technician</span></h3>
+                    <ul>
+                        <li>Troubleshooting and Technical Support: Efficiently diagnose and resolve IT-related issues for students, faculty, and
+                        staff, ensuring minimal disruption to their academic and administrative activities.</li>
+                        <li>Computer Repair and Maintenance: Develop a deep understanding of various methods for repairing computers,
+                            addressing both hardware and software malfunctions to maintain optimal performance.</li>
+                        <li>Customer Service Excellence: Demonstrate strong listening and customer service skills to accurately understand
+                            and address user concerns, fostering a welcoming and supportive IT environment.</li>
+                    </ul>
                 </div>
             </div>
 
@@ -98,9 +104,12 @@
                 <div class="timeline-dot"></div>
                 <div class="timeline-date">2024</div>
                 <div class="timeline-content">
-                    <h3>Software Engineer Intern | Jun-Aug</h3>
-                    <p>I am currently working on an RPA project to automate distributor and store management for the SmartPed platform. This involves adjusting Playwright scripts 
-                    to automate registration processes and implementing comprehensive error handling to manage failures in accessing pages, clicking elements, and processing data.</p>
+                    <h3><span>Software Engineer Summer Intern</span> | Jun-Aug</h3>
+                    <ul>
+                        <li>Collaborated in developing and maintaining software using Python, Django REST, Docker, and APIs.</li>
+                        <li> Worked in Agile development methodology using Jira</li>
+                        <li>Assisted with testing and software troubleshooting.</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -111,41 +120,71 @@
         <h2 class="heading">Projects</h2>
         <div class="projects-container">
 
-            <!-- First project -->
+        <!-- First project -->
+        <a href="https://github.com/arthurpvicente/SpringProjectAPI" target="_blank" class=" spring-boot project" >
             <div class="project-box">
                 <div class="project-info">
                     <h4>Spring Boot API</h4>
                     <p>This is a simple CRUD (Create, Read, Update, Delete) API for managing products. It is built using Spring Boot and leverages JPA for database interactions. 
-                    The project also includes HATEOAS for adding links to the responses.</p>
+                    The project also includes HATEOAS for adding links to the responses. Click to view more!</p>
                 </div>
             </div>
+        </a>
 
-            <!-- Second project -->
+        <!-- Second project -->
+        <a href="https://github.com/arthurpvicente/UDP-Chat" target="_blank" class="udp chat project" >
             <div class="project-box">
                 <div class="project-info">
                     <h4>UDP Chat Application</h4>
                     <p>This Python script implements a simple UDP chat application using socket programming. The application consists of a server and a client, both of which run 
-                    concurrently as separate threads.</p>
+                    concurrently as separate threads. Click to view more!</p>
                 </div>
             </div>
+        </a>
 
-            <!-- Third project -->
+        <!-- Third project -->
+        <a href="https://github.com/arthurpvicente/Portfolio" target="_blank" class="personal portfolio project" >
             <div class="project-box">
                 <div class="project-info">
-                    <h4>Personal Website Portfolio</h4>
+                    <h4>Personal Website</h4>
                     <p>Developed a modern, responsive personal portfolio using HTML, CSS, and JavaScript, featuring a user-friendly interface that effectively showcases projects and 
-                    accomplishments.</p>
+                    accomplishments. Click to view more!</p>
                 </div>
             </div>
+        </a>
 
-            <!-- Fourth project -->
+        <!-- Fourth project -->
+        <a href="https://github.com/arthurpvicente/Spring-API-Management" target="_blank" class="spring-management project" >
             <div class="project-box">
                 <div class="project-info">
-                    <h4>API Management System</h4>
+                    <h4>Management System</h4>
                     <p>Developed a RESTful API system using Java and Spring Boot for managing users, categories, incomes, and outgoings, including test data preloading and robust API testing
-                    with Postman.</p>
+                    with Postman. Click to view more!</p>
                 </div>
             </div>
+        </a>
+
+        <!-- Fifth project -->
+        <a href="https://github.com/arthurpvicente/FraudDetection" target="_blank" class="fraud detection project" >
+            <div class="project-box">
+                <div class="project-info">
+                    <h4>Fraud Detection</h4>
+                    <p>The project uses K-Means clustering to detect fraudulent transactions in a bank dataset. It involves preprocessing, outlier detection, and normalization, 
+                    with fraud identified by how far transactions are from cluster centroids. Click to view more!</p>
+                </div>
+            </div>
+        </a>
+
+        <!-- Sixth project -->
+        <a href="https://github.com/arthurpvicente/Fighting-Game" target="_blank" class="Fighting-Game project" >
+            <div class="project-box">
+                <div class="project-info">
+                    <h4>Fighting Game</h4>
+                    <p>This is a 2D fighting game developed by a team of 5 college students. Players battle against each other using various weapons, with the goal of reducing the opponent's health to zero. 
+                    It was created using the Godot Engine as part of a college project. Click to view more!</p>
+                </div>
+            </div>
+        </a>
         </div>
     </section>
 
@@ -163,7 +202,7 @@
                 <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Phone Number">
                 <input type="text" name="subject" placeholder="Subject">
             </div>
-            <div class="input-group-2">
+            <div class="input-box">
                 <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
                 <button type="submit" class="btn">Send Message</button>
             </div>
@@ -186,7 +225,7 @@
         </ul>
 
         <!-- Copyright notice -->
-        <p class="copyright">&copy; 2024 Arthur Vicente. All rights reserved.</p>
+        <p class="copyright">&copy; 2025 Arthur Vicente. All rights reserved.</p>
     </footer>
 
     <!-- Customize flags in different countries for contact form (Phone Number) -->
