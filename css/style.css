@@ -373,6 +373,13 @@ span{
     font-weight: 500;
 }
 
+.timeline-content h4{
+    font-size: 18px;
+    color: white;
+    margin: 0 0 10px;
+    font-weight: 500;
+}
+
 .timeline-content ul{
     color: white;
     font-size: 16px;
@@ -451,6 +458,7 @@ span{
     font-weight: 600;
     max-height: 100px;
     line-height: 1.7;
+    text-align: justify;
     margin: auto;
     color: black;
 }
@@ -614,6 +622,7 @@ span{
         border-left: 2px solid var(--main-color);
         border-bottom: 2px solid var(--main-color);
         display: none;
+        flex-direction: column;
     }
     .navbar.active{
         display: block;
@@ -638,14 +647,23 @@ span{
     .home-content p{
         max-width: 600px;
         margin: 0 auto;
+        text-align: justify;
+    }
+    .about-content p{
+        font-size: 1.5rem;
+        text-align: left;
     }
     .home-img img{
         width: 56vw;
     }
     .projects h2{
         margin-bottom: 3rem;
+        text-align: center;
     }
     .projects-container{
         grid-template-columns: repeat(1,1fr);
+    }
+    .project-box{
+        text-align: left;
     }
 }
