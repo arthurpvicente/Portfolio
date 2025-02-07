@@ -606,7 +606,7 @@ span{
 }
 
 /* Mobile Responsive */
-@media(max-width:895px){
+@media(max-width: 480px){
     #menu-icon{
         display: block;
     }
